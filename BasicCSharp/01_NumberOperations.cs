@@ -80,7 +80,7 @@ namespace BasicCSharp
 
             // change "default(long)" to correct value.
             // const long expectedResult = default(long);
-            const long expectedResult = 12345;
+            const long expectedResult = 12345L;
             Assert.Equal(expectedResult, longNumber);
         }
 
